@@ -1,0 +1,13 @@
+<h1><img class="img-heading" ng-src="img/Light-Bulb-icon.png" />Suggestion Box</h1>
+                <div class="content">
+                    <h2>{{ post.title }}</h2>
+                    <h3>Comments:</h3>
+                    <p ng-repeat="cmt in comments">{{ cmt }}</p>
+                    <form id="addComment" ng-submit="addComment()">
+                      <h4>Post Your Comment</h4>
+                      <fieldset class="form-group">
+                      <input class="form-control" ng-model="comment" type="text" placeholder="Comments Here" />
+                    </fieldset> 
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>  

@@ -1,0 +1,18 @@
+.img-heading{
+	max-width: 100px;
+}
+.upvotes{
+	cursor: pointer;
+	background: #F65A5B;
+	color: #fff;
+	display:inline-block;
+	border-radius: 50%;
+	min-width: 15px;
+	height: 15px;
+	line-height: 10px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+#addSuggestion{
+	margin: 50px 0;
+}
